@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    height: 90px;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+header h1 {
+    padding: 20px;
+}
+
+header a {
+    margin-left: 20px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+.leftnav {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: lightseagreen;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 8px;
+    width: 100px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin: 10px 50px;
+    /* ^why did auto not work to center? */
+}
+
+.leftcol {
+    /* display: flex; */
+    flex: 3;
+    background-color: wheat;
+    height: 400px;
+    margin-right: 18px;
+    border: solid 2px darkgray;
+    /* margin-bottom: 20px; */
+}
+
+.userhead {
+    background-color:darkgrey;
+    height: 70px;
+}
+
+.usercard {
+    /* background-color: darkgreen; */
+    height: 300px;
+    padding-bottom: 20px;
+    /* margin-bottom: 30px; */
+}
+
+.usercard img {
+    height: 60px;
+    padding-left: 30px;
+    /* overflow: visible;
+    position: fixed; */
+}
+
+.usercard p, h2 {
+    padding-left: 30px;
+}
+
+
+.location {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.location img{
+    height: 20px;
+}
+
+.location p {
+    padding-left: 10px;
+}
+
+.edit {
+    padding-top: 20px;
+    align-items: center;
+}
+
+.edit img {
+    height: 20px;
+}
+
+.education {
+    background-color: honeydew;
+    height: 200px;
+    margin-top: 90px;
+    /* ^only way to create space between usercard and education? */
+    border: solid 2px darkgray;
+}
+
+.education h4 {
+    background-color: darkgray;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.education h3, p, h5{
+    /* padding-bottom: 10px; why is this changing the usercard  */
+    padding-left: 30px;
+
+}
+
+.education p, h3, h5{
+    padding-top: 20px;
+}
+
+.education h5 {
+    color: lightslategray;
+}
+
+.rightcol {
+    flex:2;
+    /* background-color:mediumturquoise; */
+    height: 400px;
+    /* how come when height is commented out, is messes up the alignment of the two columns */
+    /* border: solid 2px darkgray; */
+}
+
+.request{
+    background-color:lightsalmon;
+    /* height: 397px; */
+    width: 300px;
+    vertical-align: top;
+    margin-bottom: 10px;
+    border: solid 2px darkgray;
+    padding-bottom: 40px;
+}
+
+.connections {
+    background-color: mistyrose;
+    height: 230px;
+    width: 300px;
+    border: solid 2px darkgray;
+    /* display: flex; */
+}
+
+.rightcol h4 {
+    background-color:darkgrey;
+    height: 30px;
+    /* width: 300px; */
+    align-items: center;
+    border: 2px solid darkgrey;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.rightcol img{
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.row1, .row2 {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.row4, .row5, .row6, .row7 {
+    display: flex;
+    align-items: center;
+}
+
+.row7{
+    padding-bottom: 10px;
+}
+
+.viewmore {
+    border-top: solid 2px darkgrey;
+    text-align: center;
+    padding: 10px;
+}
+
+.viewmore a{
+    /* text-decoration: none; */
+    padding:20px;
+    /* padding-top: 10px; */
+}
